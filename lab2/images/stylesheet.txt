@@ -1,0 +1,77 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-arrow {
+    width: 10px;
+    height: 5px;
+    background-position: -25px -25px;
+}
+
+.sprite-check {
+    width: 16px;
+    height: 16px;
+    background-position: -25px -80px;
+}
+
+.sprite-facebook {
+    width: 17px;
+    height: 18px;
+    background-position: -25px -146px;
+}
+
+.sprite-green_button {
+    width: 14px;
+    height: 14px;
+    background-position: -25px -214px;
+}
+
+.sprite-instagram {
+    width: 17px;
+    height: 18px;
+    background-position: -25px -278px;
+}
+
+.sprite-points {
+    width: 20px;
+    height: 36px;
+    background-position: -25px -346px;
+}
+
+.sprite-telegram {
+    width: 62px;
+    height: 62px;
+    background-position: -25px -432px;
+}
+
+.sprite-vk {
+    width: 22px;
+    height: 12px;
+    background-position: -25px -544px;
+}
+
+.sprite-white_button {
+    width: 16px;
+    height: 16px;
+    background-position: -25px -606px;
+}
+
+.sprite-white_plus {
+    width: 16px;
+    height: 16px;
+    background-position: -25px -672px;
+}
+
+.sprite-z-lines {
+    width: 22px;
+    height: 11px;
+    background-position: -25px -738px;
+}
+
+.sprite-z-x {
+    width: 10px;
+    height: 10px;
+    background-position: -25px -799px;
+}

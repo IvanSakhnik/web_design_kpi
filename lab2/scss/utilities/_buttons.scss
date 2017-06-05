@@ -1,0 +1,118 @@
+//-------------------------//
+//--Button Styles----------//
+//-------------------------//
+
+.best-proposition__footer__button{
+	@include containers-footer-button;
+}
+
+.last-advert__footer__button{
+	@include containers-footer-button;
+}
+
+.metrovka-footer__button{
+	@include containers-footer-button;
+}
+
+.button{
+	display:inline-block;
+	height: 35px;
+	padding: 10px;
+	color: white;
+	background-color:$button-color-green;
+	width: 100%;
+	text-align: center;
+	border-radius: 2px;
+}
+
+.transition-button{
+	margin-top: 30px;
+	max-width: 320px;
+	padding: 10px 0 0 10px;
+	border-radius: 3px;
+}
+
+.switch{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: $button-color-green;	
+}
+
+.switch-empty{
+ 	background-color: transparent;		
+	border: 2px solid $button-color-green;
+	margin-left: 5px;
+}
+
+.call-form-button{
+	width: 236px; 
+}
+
+.button-interaction-site{
+	width: 50px;
+	margin-left: -5px;
+	padding-left: 6px;
+	background: none;
+}
+
+.form-button{
+	background: white;
+	width: 200px;
+	height: 40px;
+	color:$button-color-green;
+	font-size: 0.875em;
+}
+
+.footer-button{
+	display: block;
+	margin-top:15    px;
+	max-width:162px;
+	border-radius: 3px;
+	padding-top: 8px;
+}
+
+
+//*************************************************************************
+//*************************************************************************
+//BUTTONS OF RENT PAGE
+
+ .rent-button{
+ 	width: 72px;
+ 	height: 34px;	
+ 	border-radius: 5px;
+ }
+
+ .call-button{
+ 	width: 71px;
+ 	display: inline-block;
+ 	border: 2px solid $border-call-button;
+ 	background: url("../images/rent_sprite.png") no-repeat 2px -269px;
+ }
+
+.massage-button{
+	width: 71px;
+	display: inline-block;
+	border: 2px solid $border-massage-button;
+	background: url("../images/rent_sprite.png") no-repeat 1px -133px;
+}
+
+.rent-switch-dark, .rent-switch-light{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: $rent-switch-dark;
+}
+
+.rent-switch-light{
+	margin-left: 2px;
+	background-color: $rent-switch-light;
+}
+
+.rent-proposition__footer__button{
+	vertical-align: top;
+	width: 140px;
+	height: 50px;
+	border: 2px solid transparent;
+}

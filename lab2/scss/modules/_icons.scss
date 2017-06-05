@@ -1,0 +1,58 @@
+//-------------------------//
+//--Icons Module-----------//
+//-------------------------//
+
+.icon-plus{
+	background: url("../images/sprite.png") no-repeat -10px -662px;
+}
+
+.close-icon{
+	background: url("../images/sprite.png") no-repeat -25px -799px;;
+}
+
+.icon-check{
+	display:inline-block;
+	position:absolute;
+	right: 25px;
+	width: 18px;
+	height: 18px;
+	background: url("../images/sprite.png") no-repeat -25px -80px;
+}
+
+.icon-telegram{
+	display:inline-block;
+	width: 62px;
+	height: 62px;
+	margin-right: 20px;
+	background: url("../images/sprite.png") no-repeat -25px -432px;
+}
+
+.icon-facebook{
+	display:inline-block;
+	width: 17px;
+    height: 18px;
+    background: url("../images/sprite.png") no-repeat -25px -146px;
+}
+
+.icon-vk{
+	display:inline-block;
+	width: 22px;
+    height: 12px;
+    margin-left: 10px;
+    background: url("../images/sprite.png") no-repeat -25px -544px;
+}
+
+.icon-instagram{
+	display:inline-block;
+	width: 17px;
+    height: 18px;
+    margin-left: 10px;
+    background: url("../images/sprite.png") no-repeat -25px -278px;
+}
+
+.icon-menu{
+	display: none;
+	width: 22px;
+    height: 11px;
+    background: url("../images/sprite.png") no-repeat -25px -738px;
+}

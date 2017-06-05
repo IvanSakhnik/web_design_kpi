@@ -1,0 +1,35 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-arrow_gray {
+    width: 10px;
+    height: 5px;
+    background-position: -25px -25px;
+}
+
+.sprite-arrow_right {
+    width: 13px;
+    height: 10px;
+    background-position: -25px -80px;
+}
+
+.sprite-facebook-messenger {
+    width: 16px;
+    height: 17px;
+    background-position: -25px -140px;
+}
+
+.sprite-i {
+    width: 19px;
+    height: 19px;
+    background-position: -25px -207px;
+}
+
+.sprite-phone {
+    width: 14px;
+    height: 15px;
+    background-position: -25px -276px;
+}

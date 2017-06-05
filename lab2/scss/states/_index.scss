@@ -1,0 +1,100 @@
+/*************************
+	All The States Styles
+*************************/
+
+
+.project-header__menu-item:hover{
+	border-bottom: 2px solid white;
+}
+
+.project-header__menu :nth-child(5):hover, 
+.project-header__menu :nth-child(6):hover,
+.rent-header__menu :nth-child(5):hover, 
+.rent-header__menu :nth-child(6):hover{
+	border-bottom: none;
+}
+
+
+.menu-accommodation__item:checked + span{
+	border-bottom: 2px solid $color-checked;
+}
+
+.button{
+	&:hover{
+		background-color: $button-color-hover;
+	}
+	
+	&:active{
+		background-color: darken($button-color-green, 7%);
+	}
+
+	&:disabled{
+		background-color: $color-text-gray;
+	}
+}
+
+.propositions:hover, .metrovka-slider__element:hover{
+	border: 2px solid $button-color-green;
+}
+
+.footer-column__text:hover{
+	color:$button-color-hover;
+}
+
+
+//*********************************************************************
+//*********************************************************************
+//STATES FOR RENT PAGE
+
+.nav-item:hover{
+	color: darken($color-blue, 20%);
+}
+
+.dollars-curs:hover{
+	color: darken($color-blue, 20%);
+	border-color: darken($color-blue, 20%);
+}
+
+.call-button{
+	&:hover{
+		border-color: darken($border-call-button, 20%);
+		background-color: lighten($border-call-button, 30%);
+	}
+
+	&:active{
+		border-color: darken($border-call-button, 20%);
+		background-color: $border-call-button;
+	}
+
+	&:disabled{
+		border-color: $color-text-darkgray;
+		background-color: $color-text-gray;
+	}
+}
+
+.massage-button{
+	&:hover{
+		border-color: darken($border-massage-button, 20%);
+		background-color: lighten($border-massage-button, 30%);
+	}
+
+	&:active{
+		border-color: darken($border-massage-button, 20%);
+		background-color: $border-massage-button;
+	}
+
+	&:disabled{
+		border-color: $color-text-darkgray;
+		background-color: $color-text-gray;
+	}
+}
+
+.rent-proposition__footer__button{
+	&:hover{
+		border-color: $color-text-gray;
+	}
+
+	&:active{
+		border-color: $color-text-darkgray;
+	}
+}

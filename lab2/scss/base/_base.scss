@@ -1,0 +1,27 @@
+//-------------------------//
+//--Base Styles------------//
+//-------------------------//
+
+@import "../../fonts/styles.css";
+
+body{
+	font-family: 'open_sans', sans-serif;
+  	font-weight: normal;
+    font-style: normal;
+}
+
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+
+input[type="submit"]{
+	border-radius: 2px;
+	border: none;
+}
+
+input[type="checkbox"]{
+	display: none;
+} 
+
+

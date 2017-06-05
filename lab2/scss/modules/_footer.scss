@@ -1,0 +1,57 @@
+//-------------------------//
+//--Footer ----------------//
+//-------------------------//
+
+.footer-column{
+	display:inline-block;
+	vertical-align: top;
+	width:206px;
+	font-size: 0.8125em;
+	line-height: 1.25em;
+}
+
+.footer-column__title{
+	font-size: 1em;
+	line-height: 2em;
+	width: 50px;
+}
+
+.footer-column__text{
+	display:block;
+	margin-top:15px;
+	max-width: 140px;
+	color:black;
+	font-size: 0.8125em;
+}
+
+.footer-icons, .footer-email{
+	margin-top:15px;
+}
+
+.footer-adress, .footer-city{
+	margin-top:10px;
+}
+
+.footer-city{
+	margin-top:5px;
+	font-size: 0.6825em;
+}
+
+.footer-logo{
+	height: 200px;
+	width:100%;
+	padding-top:60px;
+	text-align:center;
+}
+
+.footer-logo__img{
+	width: 51px;
+	height: 47px;
+	padding-top:60px;
+	margin: 0 auto;
+	background: url("../images/logo_footer.png") no-repeat 0 0;
+}
+//*********************************************************************************************************************
+//********************************************************************************************************************* 
+
+

@@ -1,0 +1,50 @@
+//-------------------------//
+//--Form Styles------------//
+//-------------------------//
+
+
+.choose_location {
+	background: white url("../images/sprite.png") no-repeat 292px -8px;
+	height: 40px;
+	border-radius: 3px;
+	border: 2px solid $color-border-form;
+	cursor: pointer;
+	option{
+		background: white;
+	}
+}
+
+.check-room__item  + span{
+	width:100%;
+	height: 100%;
+	cursor: pointer;
+	border: 2px solid $color-border-form;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 2.5em;
+}
+
+.check-room__item:checked + span{
+	background: white;
+	color: black;
+}
+
+.application-right__form .check-room__item:checked + span{
+	background: $button-color-green;
+	color: white;
+}
+
+.menu-accommodation{
+	font-size: 0.875em;
+	padding: 15px 0 0 7px;
+	span{
+		display: inline-block;
+		height: 25px;
+		margin-right: 35px;
+		cursor: pointer;
+	}
+}
+
+.menu-accommodation__item + span{
+	border-bottom: 2px solid transparent;
+}

@@ -1,0 +1,90 @@
+//-------------------------//
+//--Metrovka ------- ------//
+//-------------------------//
+.metrovka-header{
+ 	width:100%;
+	padding-top: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.metrovka__title{
+	@include title;
+}
+
+.metrovka-header__text{
+	@extend .telegram-header__text;
+}
+
+.metrovka-slider{
+	max-width: 848px;
+	margin: 0 auto;
+	padding-top:20px;
+}
+
+.metrovka-slider__element{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+	width:272px;
+	min-height:306px;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+
+.metrovka-slider :last-child{
+	margin-right: 0px;
+}
+
+.metrovka-slider__element__img{
+	width: 268px;
+	height: 182px;
+}
+
+.metrovka-slider__element__theme{
+	font-size: 0.6875em;
+	margin-top: 20px;
+	line-height: 1em;
+}
+
+.metrovka-theme1{
+	color: $metrovka-color-theme1;
+}
+
+.metrovka-theme2{
+	color: $color-blue;
+}
+
+.metrovka-theme3{
+	color: $metrovka-color-theme3;
+}
+
+.metrovka-slider__element__description{
+	max-width: 272px;
+	margin-top: 5px;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.metrovka-slider__element__author{
+	color: $color-text-gray;
+	margin-top: 20px;
+	font-size: 0.75em;
+	line-height: 1em;
+}
+
+.metrovka-slider__element__img{
+	position: relative;
+}
+
+.metrovka-img1{
+	background: url("../images/metrovka_slider1.jpg") no-repeat;
+}
+
+.metrovka-img2{
+	background: url("../images/metrovka_slider2.jpg") no-repeat;
+}
+
+.metrovka-img3{
+	background: url("../images/metrovka_slider3.jpg") no-repeat;
+}

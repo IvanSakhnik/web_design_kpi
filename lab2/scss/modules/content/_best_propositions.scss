@@ -1,0 +1,92 @@
+//-------------------------//
+//--Best proposition ------//
+//-------------------------//
+
+.best-proposition__header{
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.best-proposition__title{
+	@include title;
+}
+
+.best-proposition__content{
+	padding: 20px 0 0 20px;
+	width:890px;
+}
+
+.propositions{
+	display: inline-block;
+	margin-right: 8px;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+
+.proposition-photo{
+	position: relative;
+	width: 202px;
+	height: 135px;
+
+	&1{
+		background-image: url("../images/flat1.jpg");
+	}
+
+	&2{
+		background-image: url("../images/flat2.jpg");
+	}
+
+	&3{
+		background-image: url("../images/flat3.jpg");
+	}
+
+	&4{
+		background-image: url("../images/flat4.jpg");
+	}
+}
+
+.vertical-dots{
+	@include vertical-dots;
+}
+
+.sub-menu{
+	@include sub-menu;
+}
+
+.price{
+	position:relative;
+	width: 150px;
+	margin-top: 20px;
+}
+
+.price-text{
+	display: inline-block;
+	font-size: 1em;
+}
+
+.flat-description{
+	margin-top: 5px;
+	color: #8C9BA5;
+	font-size: 0.75em;
+}
+
+.flat-location{
+	margin-top: 10px;
+	font-size: 0.75em;
+}
+
+.red-circle{
+	display:inline-block;
+	color: $color-red-circle;
+}
+
+.blue-circle{
+	display:inline-block;
+	color: $color-blue-circle;
+}
+
+.metro-location{
+	display:inline-block;
+	margin-left: 10px;
+}

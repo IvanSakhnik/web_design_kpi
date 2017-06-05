@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Лабораторна робота №3</title>
+		<script src="lib/jquery.js"></script>
+		<script src="lib/bootstrap.js"></script>
+		<link rel="stylesheet" href="lib/bootstrap.css">
+		<link rel="stylesheet" href="style.css">
+
+		<script src="core.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="page-header">
+				<h1>Лабораторна робота №3 <small>Виконав студент групи КВ-42, Сахнік Іван</small></h1>
+			</div>
+			<div class="form-inline text-center">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Назва файлу" id="filename-new">
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="button" id="create-file"><span class="glyphicon glyphicon-plus"></span> додати</button>
+					</span>
+				</div>
+				<button class="btn btn-success" id="create"><span class="glyphicon glyphicon-folder-open"></span> створити файли</button>
+				<button class="btn btn-default" id="refresh"><span class="glyphicon glyphicon-refresh"></span> оновити список</button>
+			</div>
+			<div class="panel panel-danger" id="message-no-files">
+				<div class="panel-heading"><span class="glyphicon glyphicon-warning-sign"></span> Помилка!</div>
+				<div class="panel-body">
+					Файлів у папці не знайдено!<br/>
+					Натисніть кнопку <span class="btn btn-default btn-xs disabled"><span class="glyphicon glyphicon-folder-open"></span> створити файли</span> зверху.
+				</div>
+			</div>
+			<table class="table" id="filelist">
+				<thead>
+					<tr>
+						<th><span class="glyphicon glyphicon-file"></span> Назва файлу</th>
+						<th><span class="glyphicon glyphicon-wrench"></span> Дії</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+		</div>
+		<div class="modal fade" id="main-modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="filename-modal"></h4>
+					</div>
+					<div class="modal-body">
+						<div id="filename-content" class="only-view"></div>
+						<textarea id="filename-content-editable" class="only-edit form-control"></textarea>
+					</div>
+					<div class="modal-footer only-edit">
+						<button class="btn btn-success" id="save-file"><span class="glyphicon glyphicon-floppy-disk"></span> зберегти</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

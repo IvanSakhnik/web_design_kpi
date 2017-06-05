@@ -1,0 +1,223 @@
+//STYLES FOR CONTENT OF RENT PAGE
+
+.nav-item, .variants-quantity, .variants-sort, .currency, .rent-proposition-img,
+.rent-proposition-info, .rent-proposition-summary, .transport-location,
+.commute-time, .green-circle, .metro-station, .rent-price-dollars, .dollars-curs,
+.call-button,.massage-button, .rent-proposition__footer__switches,
+.rent-switch-dark, .rent-switch-light, .rent-proposition__footer__button {
+	display: inline-block;
+}
+
+.nav-item{
+	font-size: 0.875em;
+	line-height: 1.068125em;
+	color: $color-blue;
+}
+
+.nav-main{
+	display:none;
+}
+
+.nav-item:nth-child(3), .nav-item:nth-child(4){
+	&:before{
+		content:" / ";
+	}
+}
+
+.nav-item:first-child:before{
+	content:""
+}
+
+.rent-title{
+	font-size: 1.25em;
+	padding-top: 19px;
+}
+
+.rent-variants{
+	color:$color-text-gray;
+	font-size: 0.875em;
+	padding: 28px 0 10px 0;
+}
+
+.variants-sort{
+	margin-left: 473px;
+	width: 140px;
+	padding-left: 5px;
+	background: url("../images/rent_sprite.png") no-repeat 86px -21px;
+}
+
+.currency{
+	width: 100px;
+	padding-left: 10px;
+	background: url("../images/rent_sprite.png") no-repeat 50px -21px;
+}
+
+.rent-proposition{
+	vertical-align: top;
+	max-width: 890px;
+	width: 100%;
+	height: 258px;
+	background-color: white;
+	margin-bottom: 13px;
+}
+
+.rent-proposition__content{
+	width: 100%;
+	padding: 11px 0 0 20px;
+	height: 196px;
+	vertical-align: top;
+}
+
+.rent-proposition-img{
+	max-width: 242px;
+	width: 100%;
+	height: 170px;
+	margin-top: 1px;
+	
+	&1{
+		background: url("../images/rent_flat1.jpg") no-repeat 0 0;
+	}
+
+	&2{
+		background: url("../images/rent_flat2.jpg") no-repeat 0 0;
+	}
+
+	&3{
+		background: url("../images/rent_flat3.jpg") no-repeat 0 0;
+	}
+}
+
+.rent-proposition-info{
+	max-width: 355px;
+	width: 100%;
+	height: 183px;
+	padding:6px 0 0 17px;
+	vertical-align: top;
+}
+
+
+.rent-proposition-summary{
+	max-width: 260px;
+	width: 100%;
+	height: 183px;
+	padding:6px 20px 0 0;
+	text-align: right;
+	vertical-align: top;
+}
+
+.proposition-title{
+	font-size: 1em;
+	color: $color-blue;
+}
+
+.proposition-location{
+	padding-top: 10px;
+}
+
+.transport-location{
+	font-size: 0.75em;
+}
+
+.commute-time{
+	color:$color-text-gray;
+	font-size: 0.75em;
+	padding-left: 15px;
+}
+
+.green-circle{
+	color: $color-green-circle;
+}
+
+.metro-station{
+	padding-left: 3px;
+}
+
+.features-title{
+	padding-top: 23px;
+	font-size: 0.75em;
+	color:$color-text-gray;
+}
+
+.features-short-description{
+	font-size: 0.75em;
+	padding-top:12px;
+	color: $color-text-darkgray;
+}
+
+.features-full-description{
+	padding-top: 21px;
+	font-size: 0.8125em;
+	line-height: 1.25em;
+}
+
+.rent-price{
+	font-size: 1.125em;
+}
+
+.rent-price-currrency{
+	padding-top: 7px;
+}
+
+.rent-price-dollars, .dollars-curs{
+	color:$color-text-gray;
+	font-size: 0.875em;
+	line-height: 1.5em;
+}
+
+ .dollars-curs{
+ 	margin-left: 12px;
+ 	padding-bottom: 1px;
+ 	border-bottom: 2px solid $color-text-gray;
+ }
+
+ .estimate-price{
+	font-size: 0.8125em;
+	text-align: center;
+	margin: 20px 0 0 96px;
+	padding: 11px 37px 0 0;
+	border-radius: 5px;
+	width: 148px;
+	height: 36px;
+	background: url("../images/rent_sprite.png") no-repeat 
+	91px -199px;
+ }
+
+ .connection-buttons{
+ 	margin-top: 18px;
+ }
+
+ .red-price{
+ 	background-color: $rent-red-price-background;
+	color: $rent-red-price-text;
+ }
+
+ .green-price{
+	background-color: $rent-green-price-background;
+	color: $rent-green-price-text;
+ }
+
+.rent-proposition__footer{
+	width: 100%;
+}
+
+.rent-proposition__footer__switches{
+	text-align: center;
+	width: 728px;
+	height: 50px;
+	padding: 19px 0 0 160px;
+}
+
+.next-section{
+	width: 115px;
+	font-size: 0.75em;
+	margin:8px 0 0 20px;
+	color: $color-text-gray;
+	background: url("../images/rent_sprite.png") no-repeat 70px -78px;
+}
+
+.next-section-theme{
+	width: 100px;
+	font-size: 0.75em;
+	margin:7px 0 0 20px;
+	color: $color-text-darkgray;
+}

@@ -1,0 +1,171 @@
+//-------------------------//
+//--Container -------------//
+//-------------------------//
+
+
+//**************************************************************
+// STYLES FOR PROJECT HEADER CONTENTAINER 
+.project-header{
+	width:100%;
+	background: url("../images/background_header.jpg") no-repeat;
+	min-height:301px;
+	color:white;
+	background-size: cover;
+}
+
+.project-header__wrapper{
+	position:relative;
+	max-width: 890px;
+	margin: 0 auto;
+}
+//**************************************************************
+
+
+//**************************************************************
+// STYLES FOR CONTENT PROJECT CONTENTAINER 
+.project-content{
+	width: 100%;
+	padding-top: 20px;
+	background-color: $background-color-gray;
+}
+
+.project-content__wrapper{
+	max-width: 890px;
+	margin: 0 auto;
+}
+
+.container{
+	background-color: white;
+	margin-top: 20px;
+}
+//**************************************************************
+
+
+//**************************************************************
+// STYLES FOR CONTENTAINER WITH ACCOMMODATION NEAR METRO
+.project-content__accommodation-metro{
+	min-height: 295px;
+	background-color: white;
+	padding: 50px 0 0 40px;
+	display:flex;
+}
+//**************************************************************
+
+
+//**************************************************************
+// STYLES FOR CONTENTAINER WITH BEST PROPOSITIONS
+.project-content__best-proposition{
+	position: relative;
+}
+//**************************************************************
+
+
+//**************************************************************
+// STYLES FOR CONTENTAINER WITH LAST ADVERB
+.project-content__last-advert{
+	position:relative;
+}
+//**************************************************************
+
+
+//**************************************************************
+// STYLES FOR CONTENTAINER WITH TELEGRAM
+.project-content__telegram{
+	margin-top: 20px;
+}
+//**************************************************************
+
+
+ //*************************************************************
+ // STYLES FOR CONTENTAINER WITH BLOG METROVKA
+.project-content__metrovka{
+	position:relative;
+}
+ //*************************************************************
+
+ //*************************************************************
+ // STYLES FOR CONTENTAINER WITH PROJECT FOOTER
+.project-footer{
+	width:100%;
+	background-color: $background-color-gray;
+}
+
+.project-footer__wrapper{
+	max-width: 844px;
+	width:100%;
+	padding-top: 40px;
+	margin: 0 auto;	
+}
+
+//**********************************************************************************************************
+//**********************************************************************************************************
+//STYLES FOR RENT PAGE CONTAINERS
+
+.rent-wrapper{
+	width: 100%;
+	margin: 0 auto;
+}
+
+//**************************************************************
+.rent-header{
+	// min-width: 1400px; ширина для проверки 1280+ версии
+	width:100%;
+	background: $button-color-green;
+	min-height:60px;
+	color:white;
+	padding-left: 16px;
+}
+
+.rent-header__wrapper{
+	max-width: 891px;
+}
+
+ //*************************************************************
+
+.rent-content{
+	padding: 20px 0 0 16px;
+	// min-width: 1400px; ширина для проверки 1280+ версии
+	width: 100%;
+	background-color: $background-color-gray;
+}
+
+.rent-content__wrapper{
+	width: 100%;
+}
+
+.rent-blocks-container{
+	padding-top: 13px;
+	width: 100%;
+}
+
+.rent-proposition__container{
+	display: inline-block;
+	vertical-align: top;
+	width: 891px;
+}
+
+.google-map{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+	width: 449px;
+	height: 799px;
+	iframe{
+			width: 449px;
+			height: 799px;
+		}
+}
+
+//**************************************************************
+
+.rent-footer{
+	// min-width: 1400px; ширина для проверки 1280+ версии
+	width: 100%;
+	background-color: $background-color-gray;
+}
+
+.rent-footer__wrapper{
+	max-width: 844px;
+	padding-top: 7px;
+	margin-left: 42px;	
+}

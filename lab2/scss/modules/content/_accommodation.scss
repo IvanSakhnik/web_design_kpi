@@ -1,0 +1,39 @@
+//-------------------------//
+//--Accommodation ---------//
+//-------------------------//
+
+.content-choose-accommodation{
+ 	max-width: 320px;
+ 	text-align: center;
+}
+
+.content-choose-accommodation__title{
+	font-size: 1.5em;
+	line-height: 2em;
+}
+
+.choose_station{
+	@extend .choose_location;
+	background: white url("../images/sprite.png") no-repeat 257px -8px;
+	margin-right: 20px;
+	width: 313px;
+	padding: 10px 0 10px 20px;
+	font-size: 0.75em;
+}
+
+.metro-img{
+	max-width: 411px;
+	max-height: 212px;
+	margin-left: 80px;
+}
+
+.menu-accommodation{
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.button-search{
+	margin-top: 20px;
+}
+
+

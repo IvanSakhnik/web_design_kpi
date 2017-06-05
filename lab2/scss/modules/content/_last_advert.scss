@@ -1,0 +1,16 @@
+//-------------------------//
+//--Last advert ---- ------//
+//-------------------------//
+ .last-advert__header{
+	width:100%;
+	padding-top: 30px;	
+	text-align: center;
+}
+
+.last-advert__title{
+	@include title;
+}
+
+.menu-accommodation-place{
+	padding: 20px 0 0 330px;
+}

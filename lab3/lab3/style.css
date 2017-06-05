@@ -1,0 +1,28 @@
+#filelist tr>*:nth-child(2n){
+	text-align:center;
+	width:20%;
+}
+#main-modal .only-edit{
+	display:none;
+}
+#main-modal.edit .only-edit{
+	display:block;
+}
+#main-modal.edit .only-view{
+	display:none;
+}
+#message-no-files{
+	max-width:500px;
+	margin:20px auto 0;
+	opacity:1;
+	css-transition:.3s opacity;
+}
+#message-no-files.hide{
+	opacity:0;
+}
+#filelist{
+	display:none;
+}
+#filelist.show-table{
+	display:table;
+}

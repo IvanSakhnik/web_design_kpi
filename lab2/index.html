@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="scss/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="js/slider.js"></script>
+</head>
+<body>
+	
+	<header class="project-header">
+		<div class="project-header__wrapper">
+
+			<div class="project-header__header">
+				<a class="header-logo" href="index.html"><img src="./images/logo.png" alt="logo"></a>
+				<div class="icon-menu"></div>
+				<menu class="project-header__menu">
+					<li class="project-header__menu-item">
+						<a class="project-header__menu-item__text" href="rent.html">Аренда</a>
+					</li>
+					<li class="project-header__menu-item">
+						<a class="project-header__menu-item__text" href="">Продажа</a>
+					</li>
+					<li class="project-header__menu-item">
+						<a class="project-header__menu-item__text" href="">Посуточно</a>
+					</li>
+					<li class="project-header__menu-item">
+						<a class="project-header__menu-item__text" href="">Еще</a>
+						<ul class="project-header__menu-item__sub-menu">
+							<li><a href="">Блог</a></li>
+							<li><a href="">Контакты</a></li>
+							<li><a href="">Новый поиск</a></li>
+						</ul>
+					</li>
+
+					<li class="project-header__menu-item">
+						<a class="button call-form-button icon-plus" href="">Разместить обьявление</a>
+					</li>
+					<li class="project-header__menu-item">
+						<a class="button button-interaction-site" href="">Войти</a>
+					</li>
+				</menu>
+			</div>
+
+			<div class="project-header__content">
+				<h1 class="project-header__tittle">Поиск недвижимости в Украине</h1>
+
+				<form class="project-header__form" action="" method="">
+					<label for="choose_city">Выберите город<br>
+					<div class="choose-city-form">
+						<select class="choose_city" name="choose city" id="choose_city">
+							<option value="Kyev" selected>Киев</option>
+							<option value="Kharkov">Харьков</option>
+							<option value="Lviv">Львов</option>
+							<option value="Odessa">Одесса</option>
+						</select>
+					</div>
+					</label>
+
+					<div class="choose-room">Кол-во комнат<br>
+							<label class="check-room"><input class="check-room__item" type="checkbox" value="1" name="rooms"><span class="check-room__1">1</span></label>
+							<label class="check-room"><input class="check-room__item" type="checkbox" value="2" name="rooms"><span class="check-room__2">2</span></label>
+							<label class="check-room"><input class="check-room__item" type="checkbox" value="3" name="rooms"><span class="check-room__3">3</span></label>
+							<label class="check-room"><input class="check-room__item" type="checkbox" value="4" name="rooms"><span class="check-room__4">4</span></label>
+							<label class="check-room"><input class="check-room__item" type="checkbox" value="5" name="rooms"><span class="check-room__5">5+</span></label>
+					</div>
+					
+
+					<input class="button form-button form-button-place" type="submit" name="" value="Перейти к поиску"> 
+				</form>
+			</div>
+		</div>
+	</header>
+	
+
+	
+	<main class="project-content">
+		<div class="project-content__wrapper">
+			
+			
+			<div class="project-content__accommodation-metro">
+				<div class="content-choose-accommodation">
+					<h2 class="content-choose-accommodation__title">
+						Недвижимость возле метро
+					</h2>
+					
+					<form action="" method="">
+						<div class="menu-accommodation">
+							<label><input class="menu-accommodation__item" type="checkbox" value="flats" name="flats"><span>Квартиры</span ></label>
+							<label><input class="menu-accommodation__item" type="checkbox" value="home" name="home"><span>Дома</span></label>
+							<label><input class="menu-accommodation__item" type="checkbox" value="offices" name="offices"><span>Офисы</span></label>
+						</div>
+
+						<select class="choose_station" name="choose station">
+							<option selected>&#9899; Политехнический институт</option>
+							<option>&#9899; Шулявка</option>
+							<option>&#9899; Крещатик</option>
+							<option>&#9899; Майдан Независимости</option>
+							<option>&#9899; Левобережная</option>
+						</select>
+						<input class="button button-search" type="submit" name="" value="Показать результаты поиска">
+					</form>
+				</div>
+				<img class="metro-img" src="./images/metro.jpg" alt="metro">
+			</div>
+			
+
+			
+			<div class="project-content__best-proposition container">
+				<header class="best-proposition__header">
+					<h2 class="best-proposition__title">Лучшие предложения в Киеве</h2>
+				</header>
+				<main class="best-proposition__content slider-wrap">
+<<<<<<< HEAD
+					<div id="prewbutton"></div>
+					<div id="nextbutton"></div>
+=======
+					<div class="prewbutton"></div>
+					<div class="nextbutton"></div>
+>>>>>>> 726f7be09b4a6c151d947edfc40c77aaedb26c85
+					<div class="slider">
+						<div class="slides-wrapper">
+							<div class="propositions proposition1 slide">
+								<div class="proposition-photo proposition-photo1">
+									<div class="vertical-dots">
+										<ul class="sub-menu">
+											<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Stop App</a></li>
+											<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Restart App</a></li>
+											<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Rename app</a></li>
+											<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Edit routes and access</a></li>
+											<li class="sub-menu__item"><a class="sub-menu__item__text"href="">Delete App</a></li>
+										</ul>
+									</div>
+									
+								</div>
+								<div class="price">
+									<div class="price-text">7 800 грн</div>
+									<div class="icon-check"></div>
+								</div>
+								<div class="flat-description">2комн. &bull; 30кв.м.</div>
+								<div class="flat-location">
+									<div class="red-circle">&#9899;</div>
+									<div class="metro-location">Политехнический институт</div>
+								</div>
+							</div>
+							<div class="propositions proposition2 slide">
+								<div class="proposition-photo proposition-photo1">
+									<div class="vertical-dots">
+										<ul class="sub-menu">
+											<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Stop App</a></li>
+											<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Restart App</a></li>
+											<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Rename app</a></li>
+											<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Edit routes and access</a></li>
+											<li class="sub-menu__item"><a class="sub-menu__item__text"href="">Delete App</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="price">
+									<div class="price-text">10 200 грн</div>
+									<div class="icon-check"></div>
+								</div>
+								<div class="flat-description">1комн. &bull; 30кв.м.</div>
+								<div class="flat-location">
+									<div class="red-circle">&#9899;</div>
+									<div class="metro-location">Политехнический институт</div>
+								</div>
+							</div>
+							<div class="propositions proposition3 slide">
+								<div class="proposition-photo proposition-photo1">
+									<div class="vertical-dots">
+										<ul class="sub-menu">
+											<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Stop App</a></li>
+											<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Restart App</a></li>
+											<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Rename app</a></li>
+											<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Edit routes and access</a></li>
+											<li class="sub-menu__item"><a class="sub-menu__item__text"href="">Delete App</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="price">
+									<div class="price-text">6 900 грн</div>
+									<div class="icon-check"></div>
+								</div>
+								<div class="flat-description">2комн. &bull; 30кв.м.</div>
+								<div class="flat-location">
+									<div class="red-circle">&#9899;</div>
+									<div class="metro-location">Политехнический институт</div>
+								</div>
+							</div>
+							<div class="propositions proposition4 slide">
+								<div class="proposition-photo proposition-photo1">
+									<div class="vertical-dots">
+										<ul class="sub-menu">
+											<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Stop App</a></li>
+											<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Restart App</a></li>
+											<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Rename app</a></li>
+											<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Edit routes and access</a></li>
+											<li class="sub-menu__item"><a class="sub-menu__item__text"href="">Delete App</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="price">
+									<div class="price-text">9 000 грн</div>
+									<div class="icon-check"></div>
+								</div>
+								<div class="flat-description">2комн. &bull; 30кв.м.</div>
+								<div class="flat-location">
+									<div class="red-circle">&#9899;</div>
+									<div class="metro-location">Политехнический институт</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="sli-links">
+					    <span class="control-slide">0</span>
+					    <span class="control-slide">1</span>
+					    <span class="control-slide">2</span>
+					    <span class="control-slide active">3</span>
+					</div>
+				</main>
+				<footer class="best-proposition__footer">
+					<a class="best-proposition__footer__button" href="">Смотреть лучшие ценовые предложения</a>
+				</footer>
+			</div>
+
+
+			
+			<div class="project-content__last-advert container">
+				<header class="last-advert__header">
+					<h2 class="last-advert__title" >Последние объявления в Киеве</h2>
+					<div class="menu-accommodation menu-accommodation-place">
+						<label><input class="menu-accommodation__item" type="checkbox" value="flats" name="flats"><span>Квартиры</span ></label>
+						<label><input class="menu-accommodation__item" type="checkbox" value="home" name="home"><span>Дома</span></label>
+						<label><input class="menu-accommodation__item" type="checkbox" value="offices" name="offices"><span>Офисы</span></label>
+					</div>
+				</header>
+				<main class="best-proposition__content">
+					<div class="propositions proposition1">
+						<div class="proposition-photo proposition-photo2">
+							<div class="vertical-dots">
+								<ul class="sub-menu">
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Stop App</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Restart App</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Rename app</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Edit routes and access</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text"href="">Delete App</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="price">
+							<div class="price-text">11 800 грн</div>
+							<div class="icon-check"></div>
+						</div>
+						<div class="flat-description">2комн. &bull; 48кв.м.</div>
+						<div class="flat-location">
+							<div class="red-circle">&#9899;</div>
+							<div class="metro-location">Политехнический институт</div>
+						</div>
+					</div>
+					<div class="propositions proposition2"align="">
+						<div class="proposition-photo proposition-photo3">
+							<div class="vertical-dots">
+								<ul class="sub-menu">
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Stop App</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Restart App</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Rename app</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Edit routes and access</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text"href="">Delete App</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="price">
+							<div class="price-text">15 000 грн</div>
+							<div class="icon-check"></div>
+						</div>
+						<div class="flat-description">3комн. &bull; 100кв.м.</div>
+						<div class="flat-location">
+							<div class="red-circle">&#9899;</div>
+							<div class="metro-location">Шулявская</div>
+						</div>
+					</div>
+					<div class="propositions proposition3">
+						<div class="proposition-photo proposition-photo4">
+							<div class="vertical-dots">
+								<ul class="sub-menu">
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Stop App</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Restart App</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Rename app</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Edit routes and access</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text"href="">Delete App</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="price">
+							<div class="price-text">11 800 грн</div>
+							<div class="icon-check"></div>
+						</div>
+						<div class="flat-description">1комн. &bull; 30кв.м.</div>
+						<div class="flat-location">
+							<div class="blue-circle">&#9899;</div>
+							<div class="metro-location">Контрактовая площадь</div>
+						</div>
+					</div>
+					<div class="propositions proposition4">
+						<div class="proposition-photo proposition-photo1">
+							<div class="vertical-dots">
+								<ul class="sub-menu">
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Stop App</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Restart App</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Rename app</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Edit routes and access</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text"href="">Delete App</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="price">
+							<div class="price-text">7 000 грн</div>
+							<div class="icon-check"></div>
+						</div>
+						<div class="flat-description">2комн. &bull; 40кв.м.</div>
+						<div class="flat-location">
+							<!-- <div class="red-circle">&#9899;</div> -->
+							<div class="metro-location">просп. Победы, 18А</div>
+						</div>
+					</div>
+				</main>
+				<footer class="last-advert__footer">
+					<a class="last-advert__footer__button" href="">Смотреть самые свежие объявления</a>
+				</footer>
+			</div>
+			
+
+			
+			<div class="project-content__telegram">
+				<header class="telegram-header">
+					<h2 class="telegram__title">Общайтесь в Telegram</h2>
+					<div class="telegram-header__text">
+						Не отвлекайтесь больше на формальности. Получайте моментальные уведомления о новых объявлениях, общайтесь без ограничений.
+					</div>
+					<menu class="telegram-header__menu">
+						<li class="telegram-header__menu-item">
+							<a class="telegram-header__menu-item__text" href="">Поиск недвижимости</a>
+						</li>
+						<li class="telegram-header__menu-item">
+							<a class="telegram-header__menu-item__text" href="">Общение с клиентами</a>
+						</li>
+					</menu>
+				</header>
+				<main class="telegram-content">
+					<img class="phone-img" src="./images/phone.png" alt="phone">
+					<div class="telegram-info">
+						<header class="telegram-info_header">
+							<div class="icon-telegram"></div>
+							<div class="telegram-info_header_title">Telegram</div>
+						</header>
+						<main class="telegram-info_content">
+							<div class="telegram-info_content_title">Metrovka Bot</div>
+							<ol class="telegram-info_content_list">
+								<li class="telegram-info_content_list_item">Собирайте аналитику по объектам</li>
+								<li class="telegram-info_content_list_item">Получайте подсказки по эффективному продвижению объявлений</li>
+								<li class="telegram-info_content_list_item">Общайтесь с клиентами через специальный канал телекоммуникации</li>
+							</ol>
+							<a class="button transition-button" href="">Присоедениться в Telegram</a>
+						</main>
+					</div>
+				</main>
+				<footer class="telegram-footer">
+					<a class="switch" href=""></a>
+					<a class="switch switch-empty" href=""></a>
+				</footer>
+			</div>
+			
+
+			
+			<div class="project-content__metrovka container">
+				<header class="metrovka-header">
+					<h2 class="metrovka__title">Блог Metrovka</h2>
+					<div class="metrovka-header__text">Хитрости, приемы, советы, фото и видео - все о том, как продать, купить, сдать в аренду или орендовать недвижимость</div>
+				</header>
+				<main class="metrovka-slider">
+					<div class="metrovka-slider__element">
+						<div class="metrovka-slider__element__img metrovka-img1">
+							<div class="vertical-dots">
+								<ul class="sub-menu">
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Stop App</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Restart App</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Rename app</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Edit routes and access</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text"href="">Delete App</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="metrovka-slider__element__theme metrovka-theme1">ЛАЙФХАК</div>
+						<div class="metrovka-slider__element__description">Киевляне могут оплатить коммуналку через Facebook</div>
+						<div class="metrovka-slider__element__author">Татьяна Малыняк &bull; 5мин чтения</div>
+					</div>
+					<div class="metrovka-slider__element">
+						<div class="metrovka-slider__element__img metrovka-img2">
+							<div class="vertical-dots">
+								<ul class="sub-menu">
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Stop App</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Restart App</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Rename app</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Edit routes and access</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text"href="">Delete App</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="metrovka-slider__element__theme metrovka-theme2">СОВЕТ METROVKA</div>
+						<div class="metrovka-slider__element__description">ТОП-5 самых дешевых квартир Киева</div>
+						<div class="metrovka-slider__element__author">Татьяна Малыняк &bull; 4мин чтения</div>
+					</div>
+					<div class="metrovka-slider__element">
+						<div class="metrovka-slider__element__img metrovka-img3">
+							<div class="vertical-dots">
+								<ul class="sub-menu">
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Stop App</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Restart App</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Rename app</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text" href="">Edit routes and access</a></li>
+									<li class="sub-menu__item"><a class="sub-menu__item__text"href="">Delete App</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="metrovka-slider__element__theme metrovka-theme3">ТЕХНОЛОГИИ</div>
+						<div class="metrovka-slider__element__description">Смарт квартиры: цены, предложения и законность</div>
+						<div class="metrovka-slider__element__author">Татьяна Малыняк &bull; 2мин чтения</div>
+					</div>
+				</main>
+				<footer class="metrovka-footer">
+					<a class="metrovka-footer__button" href="">Перейти на страницу блога</a>
+				</footer>
+				
+			</div>
+		</div>
+	</main>
+	
+
+	
+	<footer class="project-footer">
+		<div class="project-footer__wrapper">
+			<div class="footer-column">
+				<div class="footer-column__title">Metrovka</div>
+				<a class="footer-column__text" href="">О компанни</a>
+				<a class="footer-column__text" href="">Пресса о нас</a>
+				<a class="footer-column__text" href="">Пользовательское соглашение</a>
+				<a class="footer-column__text" href="">Карта сайта</a>
+				<a class="footer-column__text" href="">Помощь</a>
+			</div>
+			<div class="footer-column">
+				<div class="footer-column__title">Партнерство</div>
+				<a class="footer-column__text" href="">Как разместить объявление</a>
+				<a class="footer-column__text" href="">Инструменты продвижения</a>
+				<a class="footer-column__text" href="">Правила заполнения объявлений</a>
+			</div>
+			<div class="footer-column">
+				<div class="footer-column__title">Узнайте больше</div>
+				<a class="footer-column__text" href="">Бонусная программа Bonus+</a>
+				<a class="footer-column__text" href="">Telegram Metrovka Bot</a>
+				<a class="footer-column__text" href="">Как работает поиск</a>
+				<a class="footer-column__text" href="">Как пользоваться избранным</a>
+			</div>
+			<div class="footer-column">
+				<div class="footer-column__title">Контакты</div>
+					<div class="footer-icons">
+						<a href=""><div class="icon-facebook"></div></a>
+						<a href=""><div class="icon-vk"></div></a>
+						<a href=""><div class="icon-instagram"></div></a>
+					</div>
+				<div class="footer-adress">ул. Жилянская,37</div>
+				<div class="footer-city">Киев,01033</div>
+				<div class="footer-email">info@metrovka.ua</div>
+				<a class="footer-button button" href="#openModal">Оставить заявку</a>
+			</div>
+			<div class="footer-logo">
+				<div class="footer-logo__img"></div>
+			</div>
+		</div>
+	</footer>
+	 
+	<!-- Leave Application -->
+	
+	<div id="openModal" class="modalDialog">
+		<div class="application-wrapper">
+
+			<div class="application-left">
+				<div class="application-left__title">Оставить заявку</div>
+				<div class="application-left__text">Нет времени искать по сайту? <br>
+				Заполняй критерии поиска и получай актуальные обьявления как только 
+				они появляются на Metrovka.</div>
+			</div>
+
+			<div class="application-right">
+				<a href="#close" class="close-icon"></a>
+				<form class="application-right__form" action="" method="">
+					<div class="menu-accommodation application-right__form__menu-accommodation-place">
+						<label><input class="menu-accommodation__item" type="checkbox" value="flats" name="flats"><span>Район</span ></label>
+						<label><input class="menu-accommodation__item" type="checkbox" value="home" name="home"><span>Метро</span></label>
+					</div>
+
+					<div class="application-right__form__choose-place">
+						<select class="choose-location-or-metro" name="choose city" id="choose_city">
+							<option selected>Голосеевский</option>
+							<option>Дарницкий</option>
+							<option>Шевченковский</option>
+							<option>Печерский</option>
+						</select>
+					</div>
+
+					<div class="choose-room choose-room-place">Кол-во комнат<br>
+						<label class="check-room"><input class="check-room__item" type="checkbox" value="1" name="rooms"><span>1</span></label>
+						<label class="check-room"><input class="check-room__item" type="checkbox" value="2" name="rooms"><span>2</span></label>
+						<label class="check-room"><input class="check-room__item" type="checkbox" value="3" name="rooms"><span>3</span></label>
+						<label class="check-room"><input class="check-room__item" type="checkbox" value="4" name="rooms"><span>4</span></label>
+						<label class="check-room"><input class="check-room__item" type="checkbox" value="5" name="rooms"><span>5+</span></label>
+					</div>
+					
+					<input class="user_name" type="text" name="name" placeholder="Как вас зовут?"> <br>
+					<input class="user_email" type="text" name="email" placeholder="Email"> <br>
+
+					<a href='#close' onClick='submit()' class="button button-leave-application">Оставить заявку</a>
+				</form>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

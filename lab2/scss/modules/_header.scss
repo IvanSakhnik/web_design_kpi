@@ -1,0 +1,155 @@
+//-------------------------//
+//--Header ----------------//
+//-------------------------//
+
+
+//***********************************************************************
+ // STYLES FOR PROJECT HEADER
+.project-header__header{
+	display: flex;
+}
+
+.header-logo{
+	padding-top: 16px;
+}
+
+.project-header__menu{
+	padding-top: 15px;
+	padding-left:40px;
+}
+
+.project-header__menu-item{
+	padding: 0 5px 0 5px;
+	height: 30px;
+	font-size: 0.875em;
+	position: relative;
+	line-height: 1.25em;
+	display: inline-block;
+	margin-right: 35px;
+	border-bottom: 2px solid transparent;
+}
+
+.project-header__menu-item__text{
+	color:white;
+}
+
+.project-header__menu :nth-child(4){
+	margin-right: 105px;
+	.project-header__menu-item__text:before{
+		@include horizontal-dots;
+	}
+}
+
+.project-header__menu :nth-child(5){
+	margin-right: -10px;
+}
+
+.project-header__menu :nth-child(6){
+	margin-right: 0px;
+}
+
+.project-header__menu-item__sub-menu{
+	@include header-sub-menu;
+}
+
+.project-header__menu > .project-header__menu-item:hover .project-header__menu-item__sub-menu{
+	display: block;
+}
+
+.project-header__tittle{
+	color:white;
+	font-size: 2em;
+	padding-top: 60px;
+	min-height: 90px;
+}
+
+//DECORATE CHECKBOX **********************************
+.project-header__form{
+	display:flex;
+	padding-top: 45px;
+}
+
+.check-room{
+	width:43px;
+	height: 43px;
+	display: inline-flex;
+	margin: 12px 4px 0 0;
+}
+
+.choose-room{
+	display: inline-block;
+	position: relative;
+	margin-left: 20px;
+}
+//DECORATE CHECKBOX ENDS******************************
+
+//DECORATE SELECT ************************************
+.choose-city-form{
+	padding-top: 12px;
+}
+
+.choose_city {
+	@extend .choose_location;
+	margin-right: 20px;
+	width: 346px;
+	padding: 10px 0 10px 20px;
+	font-size: 0.9375em;
+}
+
+.form-button-place{
+	margin: 30px 0 0 42px;
+}
+
+//**********************************************************************************************
+//**********************************************************************************************
+//STYLES FOR RENT PAGE
+
+.rent-header__header{
+	display: flex;
+}
+
+.rent-logo{
+	padding-top:14px;
+}
+
+.rent-header__menu{
+	@extend .project-header__menu;
+	height: 63px;
+}
+
+.rent-header__menu :nth-child(4){
+	margin-right: 110px;
+	.rent-header__menu-item__text:before{
+		@include horizontal-dots;
+	}
+}
+
+.rent-header__menu-item{
+	@extend .project-header__menu-item;
+	margin-right: 31px;
+}
+
+.rent-header__menu :nth-child(5){
+	margin-right: -10px;
+}
+
+.rent-header__menu :nth-child(6){
+	margin-right: 0px;
+}
+
+.rent-header__menu-item__text{
+	color:white;
+}
+
+.rent-header__menu-item__sub-menu{
+	@include header-sub-menu;
+	background-color: $button-color-green;
+	padding:10px;
+	a{
+		margin-left: 10px;
+	}
+}
+
+.rent-header__menu > .rent-header__menu-item:hover .rent-header__menu-item__sub-menu{
+	display: block;
+}

@@ -1,0 +1,324 @@
+//-------------------------//
+//--Responsive ------------//
+//-------------------------//
+
+@media screen and (max-width: 890px){
+
+
+	.project-content{
+		border: 1px solid black;
+	}
+	.project-header__wrapper{
+		position:relative;
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.icon-menu{
+		display: block;
+		margin-top:30px;
+		margin-left: 85%;
+	}
+
+	
+	.project-header__menu{
+		display: none;
+	}
+
+	.project-header__tittle{
+		padding-top: 40px;
+	}
+
+	.project-header__form{
+		display: block;
+		width: 345px;
+	}
+
+	.choose_city{
+		width: 312px;
+		background: white url("../images/sprite.png") no-repeat 252px -8px;
+		option{
+			width: 312px;
+		}
+	}
+
+	.choose-room{
+		margin: 20px 0 0 0;
+	}
+
+	.project-content__accommodation-metro{
+		position: relative;
+		display: block;
+		padding: 15px;
+		.metro-img{
+			width: 80%;
+			height: 110%;
+			position: absolute;
+			top: 20px;
+			left: -40px;
+			margin-left: 25%;
+		}
+		.content-choose-accommodation{
+			padding-top: 250px;
+			margin: 0 auto;
+		}
+		.menu-accommodation{
+			text-align: center;
+		}
+	}
+	
+	// .best-proposition__content{
+	// 	overflow-x: auto;
+	// }
+	
+	.project-content__best-proposition{
+		overflow: hidden;
+	}
+
+	.project-content__last-advert{
+		overflow: hidden;
+		.menu-accommodation-place{
+			text-align: center;
+			margin: 0;
+			padding: 20px;
+		}
+	}
+
+	.telegram-header__text{
+		width: 290px;
+	}
+
+	.telegram-content{
+		padding: 0;
+		margin: 0;
+		.telegram-info{
+			width: 360px;
+			margin: 0 auto;
+			padding-left: 20px;
+		}
+		.phone-img{
+			display: none;
+		}
+	}
+	
+	.metrovka-slider__element{
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		&:last-child{
+			margin: 0 auto;
+		}
+	}
+
+	.footer-column{
+		width:100%;
+	}
+
+	.form-button-place{
+		margin: 20px 0 20px 0;
+	}
+	
+	.footer-adress, .footer-city, .footer-column__title, 
+	.footer-column__text, .footer-icons, .footer-email{
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+		width: 110px;
+	}
+	
+	.footer-column__title{
+		padding: 20px 0 10px 0;
+	}
+
+	.footer-button{
+		margin: 0 auto;
+	}
+} 
+
+
+//**********************************************************
+//**********************************************************
+//MEDIA QUERE FOR RENT PAGE
+
+@media screen and (max-width: 360px) {
+	.google-map{
+		display: none;
+	}
+
+	.rent-header{
+		padding-left: 6px;}
+
+	.rent-header__wrapper{
+		max-width: 96%;}
+
+	.rent-header__menu{
+		display:none;}
+	
+	.rent-nav-container{
+		padding-left: 16px;
+	}
+
+	.rent-nav-container{
+		max-width: 100%;}
+
+	.nav-item{
+		display: none;}
+
+	.nav-main{
+		display: inline;
+		font-size: 0.875em;
+		line-height: 1.068125em;
+		color: $color-blue;}
+
+	.rent-title{
+		font-size: 1em;}
+
+	
+	.rent-variants{
+		width: 340px;
+	}
+
+	.variants-quantity,
+	.rent-proposition-img, .rent-proposition-info,
+	.rent-proposition-summary, .rent-proposition__footer__switches,
+	.rent-proposition__footer, .rent-proposition__footer__button{
+		display: block;
+	}
+	.variants-sort, .currency{
+		display: inline-block;
+		margin: 0;
+	}
+	
+	.rent-content{
+		padding-left: 0px;
+		width: 100%;
+	}
+
+	.rent-proposition{
+		width: 360px;
+		height: 650px;
+	}
+
+	.rent-proposition-img{
+		padding: 10px;
+		max-width: 325px;
+		height: 228px;
+		background-size: cover;
+	}
+	
+	.rent-proposition-info{
+		width: 320px;
+		height: 196px;
+		padding:20px 0 0 0;
+	}
+
+	.proposition-title{
+		margin-left: 0;
+
+	}
+
+	.rent-proposition-summary{
+		margin-top: 20px;
+		max-width: 320px;
+		height: 80px;
+		padding:0;
+		text-align: left;
+	}
+
+	.rent-price, .rent-price-dollars, .rent-price-currrency{
+		display: inline-block;
+	}
+	
+	.rent-price-currrency{
+		margin-left: 80px;
+	}
+
+	.dollars-curs{
+		display: none;
+	}
+
+	.estimate-price, 
+	.connection-buttons{
+		display: inline-block;
+		height: 36px;
+		margin: 18px 0 0 0;
+	}
+
+	.estimate-price{
+		position:relative;
+		top:-12px;
+	}
+
+	.connection-buttons{
+		margin-left: 15px;
+	}
+
+	.rent-proposition__footer{
+		width: 315px;
+		height: 40px;
+		margin: 0 auto;
+		margin-top: 370px;
+		// border: 1px solid black;
+	}
+
+	.rent-proposition__footer__switches{
+		text-align: center;
+		width: 150px;
+		height: 30px;
+		padding: 10px 0 0 0;
+	}
+
+	.rent-proposition__footer__button{
+		vertical-align: top;
+		width: 140px;
+		height: 20px;
+		margin: 0 0 20px 150px;
+		// border: 2px solid black;
+	}
+
+	.next-section{
+		width: 115px;
+		margin:-27px 0 0 20px;
+	}
+
+	.next-section-theme{
+		width: 100px;
+		margin:7px 0 0 20px;
+		color: $color-text-darkgray;
+	}
+
+	.footer-column{
+		width:100%;
+	}
+
+	.form-button-place{
+		margin: 20px 0 15px 0;
+	}
+	
+	.footer-adress, .footer-city, .footer-column__title, .footer-column__text{
+		text-align: center;
+		margin-left: 25%;
+		width: 110px;
+	}
+	
+	.footer-column__title{
+		padding: 20px 0 10px 0;
+	}
+
+	.footer-icons, .footer-email{
+		margin: 15px 100px;
+	}
+
+	.footer-button{
+		margin-left: 22%;
+	}
+}
+
+@media screen and (max-width: 1280px){
+	.google-map{
+		overflow: hidden;
+		width: 300px;
+		height: 550px;
+	}
+}
